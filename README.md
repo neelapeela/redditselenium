@@ -3,9 +3,9 @@ Basic Selenium proof of concept that takes a given query and scrapes the web for
 
 # dependencies
 Note: Dependencies can be found in requirements.txt
-vaderSentiment - utilized the pre-trained lexicon based sentiment analysis model with 80% accurate results
-Selenium - Web scraped google and reddit to obtain comments in json format
-Flask - The most lightweight method of hosting the program on the web
+- vaderSentiment - utilized the pre-trained lexicon based sentiment analysis model with 80% accurate results
+- Selenium - Web scraped google and reddit to obtain comments in json format
+- Flask - The most lightweight method of hosting the program on the web
 
 # example uses
 You can use this program when you need to see what people think about a certain 
