@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Sentiment Analyzer Results</title>
+</head>
+<body>
+    <h1>Reddit Sentiment Analyzer Results</h1>
+    <h2>Average Sentiment Score: {{ average_sentiment_score }}</h2>
+    <h3>Original URL: {{ originalurl }}</h3>
+    <h3>Sentiment Scores:</h3>
+    <ul>
+        {% for comment, score in sentiment_scores.items() %}
+        <li>{{ comment }} - {{ score }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
